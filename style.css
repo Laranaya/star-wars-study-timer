@@ -1,0 +1,144 @@
+body{
+  background-image: url(deathstarHD.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  position: relative;
+  padding-top: 10px;
+}
+
+#heading{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}
+
+#mandoIcon{
+  position: relative;
+  top: 16px;
+  height: 50px;
+  width: 53px;
+}
+
+#startButton{
+  position: relative;
+  border-radius: 25px;
+  padding: 16px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white;
+  left: 350px;
+  top: 230px;
+}
+
+#startButton:hover{
+  box-shadow: 0 0 20px #00ff66;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+#pauseButton{
+  position: relative;
+  border-radius: 25px;
+  padding: 16px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white;
+  left: 470px;
+  top: 230px;
+  margin: 10px 15px; 
+}
+
+#pauseButton:hover{
+  box-shadow: 0 0 20px #b300ff;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+#resetButton{
+  position: relative;
+  border-radius: 25px;
+  padding: 16px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white;
+  left: 600px;
+  top: 230px;
+}
+
+#resetButton:hover{
+  box-shadow: 0 0 20px #ff0033;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+#studyInput{
+  position: relative;
+  left: 160px;
+  bottom: 10px;
+  border-radius: 25px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background-color: black;
+  border: 2px solid #aaddff;
+  box-shadow: 0 0 10px #aaddff;
+  color: white;
+  padding: 35px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+
+}
+
+#studyInput::placeholder{
+  white-space: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+#breakInput{
+  position: relative;
+  left: 600px;
+  bottom: 90px;
+  border-radius: 25px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background-color: black;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+  color: white;
+  padding: 35px;
+  padding-top: 20px; /*figured on my own */
+  padding-bottom: 35px;
+}
+
+#breakInput::placeholder{
+  white-space: normal;
+}
+
+#studyTitle{
+  position: relative;
+  left: 300px;
+  top: 60px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+#breakTitle{
+  position: relative;
+  left: 750px;
+  top: 19px;
+  font-family: 'Orbitron', sans-serif;
+  color: white; 
+}

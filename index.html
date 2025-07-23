@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lara's SW Study Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="heading">
+      <h2>Welcome, Young Padawan. Ready to harness the Force and focus? <img src="mando_icon.png" id="mandoIcon">
+      </h2>
+    </div>
+
+    <div class="titles">
+        <h3 id="studyTitle">Study Minutes</h4>
+        <h3 id="breakTitle">Break Minutes</h4>
+    </div>
+
+    <div class="myButtons">
+      <button id="startButton">Start</button>
+      <button id="pauseButton">Pause</button>
+      <button id="resetButton">Reset</button>
+    </div>
+
+    <div class="studyInput">
+      <form>
+        <label for="studyInput">Study Time: </label>
+        <input type="text" id="studyInput" name="studyInput" placeholder="How long will your mission last?" required>
+      </form>
+    </div>
+
+    <div class= "breakInput">
+      <form>
+        <label for="breakInput">Break Time: </label>
+        <input type="text" id="breakInput" name="breakInput" placeholder="You have earned your rest. This is the Way." required>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
